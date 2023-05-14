@@ -2,12 +2,12 @@ import { HandlerContext } from "$fresh/server.ts";
 import { OpenAI } from "https://deno.land/x/openai/mod.ts";
 import "https://deno.land/x/dotenv@v3.2.2/load.ts";
 
-const OPENAI_API_KEY = Deno.env.get("API_KEY");
+/*const OPENAI_API_KEY = Deno.env.get("API_KEY");
 if (!OPENAI_API_KEY) {
   throw new Error("OPENAI_API_KEY not found");
 }
 
-const openaiClient = new OpenAI(OPENAI_API_KEY);
+const openaiClient = new OpenAI(OPENAI_API_KEY);*/
 
 export const handler = async (
   _req: Request,
