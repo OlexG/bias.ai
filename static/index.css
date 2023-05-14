@@ -1,0 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.circle-background {
+  fill: none;
+  stroke: #ddd;
+}
+
+.circle-progress {
+  fill: none;
+  stroke: #ff6b6b;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
